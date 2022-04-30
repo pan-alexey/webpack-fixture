@@ -1,11 +1,18 @@
 {
   "name": "webpack-fixture",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fixture for webpack",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "/dist"
+  ],
+  "keywords": [
+    "webpack",
+    "memfs",
+    "test",
+    "testing",
+    "fixture"
   ],
   "scripts": {
     "build": "tsc"
@@ -21,13 +28,10 @@
   },
   "homepage": "https://github.com/pan-alexey/webpack-fixture#readme",
   "devDependencies": {
-    "typescript": "^4.6.3",
-    "webpack-cli": "^4.9.2"
+    "typescript": "^4.6.3"
   },
   "dependencies": {
-    "memfs": "^3.4.1"
-  },
-  "peerDependencies": {
+    "memfs": "^3.4.1",
     "webpack": "^5.72.0"
   }
 }
