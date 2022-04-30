@@ -1,6 +1,6 @@
 {
   "name": "webpack-fixture",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Fixture for webpack",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

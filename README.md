@@ -39,13 +39,13 @@ const { err, stats } = await new Promise((resolve) => {
 const volumeJon = volume.toJSON();
 
 /*
-json['/index.js'] => `
+volumeJon['/index.js'] => `
 console.log(1)
 const _ = 1;
 console.log(2)
 `
 
-json['/build/bundle.js'] => `console.log(1),console.log(2);`
+volumeJon['/build/bundle.js'] => `console.log(1),console.log(2);`
 */
 
 ```
