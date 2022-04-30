@@ -1,0 +1,33 @@
+{
+  "name": "webpack-fixture",
+  "version": "1.0.0",
+  "description": "Fixture for webpack",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pan-alexey/webpack-fixture.git"
+  },
+  "author": "Pan Alexey <pan-alexey@live.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pan-alexey/webpack-fixture/issues"
+  },
+  "homepage": "https://github.com/pan-alexey/webpack-fixture#readme",
+  "devDependencies": {
+    "typescript": "^4.6.3",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "memfs": "^3.4.1"
+  },
+  "peerDependencies": {
+    "webpack": "^5.72.0"
+  }
+}
